@@ -1,5 +1,6 @@
 # EE599HW4Q3
 For gtest EraseShouldHandleCaseOne, when erase 2, where there is no child of 2, it should erase 2 directly
+        
         1
          \
           5
@@ -21,6 +22,7 @@ For gtest EraseShouldHandleCaseOne, when erase 2, where there is no child of 2, 
             7 9 11
 
 For gtest EraseShouldHandleCaseTwo, when erase 6, where there is one child, it should work like this:
+        
         1
          \
           5
@@ -41,6 +43,7 @@ For gtest EraseShouldHandleCaseTwo, when erase 6, where there is one child, it s
               9 11
 
 For gtest EraseShouldHandleCaseThree, when erase 5, where there are two children of 5, the 6 should take the place of 5, only in that way can keep the BST in order.
+        
         1
          \
           5
